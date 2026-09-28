@@ -14,7 +14,7 @@ The original tiny11builder blindly strips down Windows components using a fixed,
 
 | Feature / Capability | Original tiny11builder | **WinDebloaterISO (This Fork)** |
 | :--- | :--- | :--- |
-| **Output Image Formats** | Hardcoded to standard `.wim` only. | **Flexible Choice:** Select **ESD** (maximum compression, smaller ISO) or **WIM** (faster build process). |
+| **Output Image Formats** | Hardcoded to standard `.esd` only. | **Flexible Choice:** Select **ESD** (maximum compression, smaller ISO) or **WIM** (faster build process). |
 | **App Removal List** | Runs automated, blind removal based on the author's fixed configuration. | **Fully Customizable:** Modify your application list on the fly to control exactly what gets targeted. |
 | **Essential Gaming Protection** | High risk of stripping necessary gaming frameworks automatically. | **Total Control:** Safely preserve crucial components like `XboxGamingOverlay` if you need them. |
 | **Bloatware Management** | Cannot adjust the removal list to target new system components. | **Scalable Scope:** Easily extend or shrink the removal script up to 69 custom entries or more. |
